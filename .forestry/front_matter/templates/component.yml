@@ -11,4 +11,5 @@ fields:
     min: 
     max: 
 pages:
+- hierachy-1.md
 - hierachy.md
