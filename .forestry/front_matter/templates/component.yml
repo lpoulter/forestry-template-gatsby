@@ -1,4 +1,12 @@
 ---
 label: Component
 hide_body: false
-fields: []
+fields:
+- name: component_block
+  type: blocks
+  label: Component Block
+  template_types:
+  - section
+  config:
+    min: 
+    max: 
