@@ -41,6 +41,14 @@ fields:
   template: blog-post
   label: section
   description: a section
+- name: ss
+  type: blocks
+  label: ss
+  template_types:
+  - section
+  config:
+    min: 
+    max: 
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/an-essay-on-walking.md
