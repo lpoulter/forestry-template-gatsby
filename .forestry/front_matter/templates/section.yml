@@ -1,4 +1,18 @@
 ---
 label: Section
 hide_body: true
-fields: []
+fields:
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: section_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Section Description
